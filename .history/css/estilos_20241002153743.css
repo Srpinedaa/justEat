@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#all{
+    border: 1px solid red;
+    overflow: hidden;
+    width: 40rem;
+
+}
+
+#navDireccion{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding: 5px;
+    align-items: center;
+}
+
+
+#slideShow{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    border: 1px solid cadetblue;
+}
+
+#slideShow img{
+    width: 100%;
+    height: 100%;
+}
+
+.formaPedido{
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#navBuscador{
+    padding: 5px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navBuscador input{
+    width: 60%;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.buscador{
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#contenido{
+    border: 1px solid green;
+}
+
+#bloque1{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque1Sesion1{
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloque1Sesion2{
+    border: 1px solid brown;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.fotoComida{
+    width: 20rem;
+    height: 8rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoComida img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid salmon;
+}
+
+#bloque3{
+    margin-top: 8px;
+}
+
+#bloque3 h2{
+    margin-bottom: 8px;
+    margin-left: 2rem;
+}
+
+.bloquePedidos{
+    border: 1px solid blue;
+}
+
+.pedido{
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.imagenPedido{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4px, 4px, 4px, 0; */
+    /* position: relative; */
+}
+
+.imagenPedido img{
+    border-bottom-radius: ;
+    border-radius: 9px;
+}
+
+.informacionPedido{
+    /* width: 100%; */
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    margin-right: 1rem ;
+}
+
+.informacionPedido h5{
+    width: 100%;
+}
+
+.informacionPedido p:last-child{
+    width: 100%;
+}
+
+

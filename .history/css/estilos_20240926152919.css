@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#all{
+    border: 1px solid red;
+}
+
+#navDireccion{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.formaPedido{
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#navBuscador{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buscador{
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#contenido{}

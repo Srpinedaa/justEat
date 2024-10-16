@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#all{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    width: 40rem;
+
+}
+
+#navDireccion{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding: 3px;
+    align-items: center;
+    margin: 0;
+}
+
+.direccion{
+    margin-left: 8px;
+    font-size: 1.4rem;
+    font-weight:bolder;
+    color: black;
+}
+
+#navBuscador{
+    padding: 5px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-search{
+    color: #f6c243;
+}
+
+.buscadorInput{
+    width: 93%;
+    border-radius: 3rem;
+    padding: 8px;
+    border: 1px solid #f5f3f1;
+    background-color: #f5f3f1;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buscador{
+    /* border: 1px solid red; */
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.fotoComida img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid salmon; */
+}
+
+.ofertas img, 
+.kebab img, 
+.italiana img, 
+.pizza img{
+    border-radius: 2rem;
+    width: 7.7rem;
+}
+
+.ofertas img{
+    background-color: #ff8000;
+}
+
+.kebab img{
+    background-color: #5b3d5b;
+
+}
+
+.pizza img{
+    background-color: #f6c243;
+
+}
+
+.italiana img{
+    background-color: #f75e28;
+
+}
+
+.fotoComida p{
+    margin: 5px 0;
+    color: #aca9a9;
+    font-size: 1.2rem;
+    font-weight: 600px;
+}
+
+#slideShow{
+    width: 90%;
+    height: 10rem;
+    margin-left: 8px;
+    margin-bottom: 2rem;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6c243;
+    border-radius: 9px;
+}
+
+#slideShow img{
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    border-radius: 8rem;
+}
+
+.descuentoTexto{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.formaPedido{
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 5px;
+    width: 12rem;
+    padding: 5px;
+
+}
+
+#contenido{
+    /* border: 1px solid green; */
+}
+
+#bloque1{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque1Sesion1{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloque1Sesion1 h4{
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.bloque1Sesion1 h4:first-child{
+    margin-left: 8px;
+}
+
+.bloque1Sesion2{
+    /* border: 1px solid brown; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.fotoComida{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bloque3{
+    margin-top: 8px;
+}
+
+#bloque3 h2{
+    margin-bottom: 8px;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+}
+
+.bloquePedidos{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.pedido{
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.imagenPedido{
+    width: 36rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+    overflow: hidden;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.imagenPedido img{
+    width: 100%;
+    height: 100%;
+}
+
+.informacionPedido{
+    width: 36rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1rem;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 1.3px 1.3px #f2f2f2;
+    font-size: 1.3rem;
+}
+
+.fa-star{
+   color: #f6c243;
+}
+
+.informacionPedido h5{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.informacionPedido p:last-child{
+    width: 100%;
+}
+
+

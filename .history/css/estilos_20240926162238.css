@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    width: 30rem;
+}
+
+#all{
+    border: 1px solid red;
+    overflow: hidden;
+
+}
+
+#navDireccion{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding: 5px;
+    align-items: center;
+}
+
+
+#slideShow{
+    width: 100%;
+    height: 8rem;
+    /* margin-bottom: 5rem; */
+    border: 1px solid cadetblue;
+}
+
+#slideShow img{
+    width: 100%;
+    height: 100%;
+}
+
+.formaPedido{
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#navBuscador{
+    padding: 5px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navBuscador input{
+    width: 50%;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+#navBuscador button{
+    
+}
+
+.buscador{
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#contenido{
+    border: 1px solid green;
+}
+
+#bloque1{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque1Sesion1{
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .bloque1Sesion2{
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: row;
+} */
+
+.fotoComida{
+    border: 1px solid green;
+    width: 1rem;
+    
+}
