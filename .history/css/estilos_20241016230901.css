@@ -124,11 +124,6 @@ input:checked + .slider #recogida {
     display: block;
 }
 
-main{
-    margin-top: 60px; /* Espacio para el header */
-    margin-bottom: 40px; /* Espacio para el footer */
-}
-
 #navBuscador{
     padding: 5px;
     /* border: 1px solid blue; */
@@ -353,8 +348,8 @@ main{
 }
 
 .fa-star{
-    color: #f6c243;
-    margin-right: 9px;
+   color: #f6c243;
+   margin-right: 9px;
 }
 
 .informacionPedido h5{
@@ -378,6 +373,4 @@ main{
     font-weight: bold;
 }
 
-footer{
-    background-color: white;
-}
+

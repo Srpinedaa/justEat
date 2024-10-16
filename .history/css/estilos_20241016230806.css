@@ -17,7 +17,6 @@ html{
 }
 
 header{
-    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -122,11 +121,6 @@ input:checked + .slider #domicilio {
 
 input:checked + .slider #recogida {
     display: block;
-}
-
-main{
-    margin-top: 60px; /* Espacio para el header */
-    margin-bottom: 40px; /* Espacio para el footer */
 }
 
 #navBuscador{
@@ -353,8 +347,8 @@ main{
 }
 
 .fa-star{
-    color: #f6c243;
-    margin-right: 9px;
+   color: #f6c243;
+   margin-right: 9px;
 }
 
 .informacionPedido h5{
@@ -378,6 +372,4 @@ main{
     font-weight: bold;
 }
 
-footer{
-    background-color: white;
-}
+

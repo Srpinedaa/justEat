@@ -20,6 +20,20 @@
                 <div id="navDireccion">
                     <h2 class="direccion">Avinguda Tarragona, O</h2>
                     <div class="formaPedido">
+                        <!-- <label class="switch">
+                        <input id="checkboxinp" type="checkbox">
+                        <div class="slider round">
+                            <i id = "domicilioOculto" class="fa fa-hotel"></i>
+                            <i id ="recogidaOculta" class="fa fa-automobile"></i>
+                            <div class="contenido">
+                                <i id = "recogidaMostrada" class="fa fa-hotel"></i>
+                                <p id="domicilio">Domicilio</p>
+                                <i id = "domicilioMostrado" class="fa fa-automobile"></i>
+                                <p id="recogida">Recogida</p>
+                            </div>
+                        </div>
+                    </label> -->
+
                         <label class="switch">
                             <input id="checkboxinp" type="checkbox">
                             <div class="slider round">
@@ -27,9 +41,11 @@
                                 <i id="recogidaOculta"
                                     class="fa fa-automobile"></i>
                                 <div class="contenido">
-                                    <i class="fa fa-hotel hotel"></i>
+                                    <p id="domicilioMostrado"
+                                        class="fa fa-hotel"></p>
                                     <p id="domicilio">Domicilio</p>
-                                    <i class="fa fa-automobile auto"></i>
+                                    <p id="recogidaMostrada"
+                                        class="fa fa-automobile"></p>
                                     <p id="recogida">Recogida</p>
                                 </div>
                             </div>
@@ -37,18 +53,18 @@
                     </div>
                 </div>
 
-            </header>
-            <main>
                 <div id="navBuscador">
                     <div class="buscadorInput">
                         <div class="buscador">
                             <i class="fa fa-search"></i>
-                            <input type="search" placeholder="Buscar un articulo o establecimiento...">
+                            <p>Buscar un articulo o establecimiento...</p>
                         </div>
 
                     </div>
                     <button>=</button>
                 </div>
+            </header>
+            <main>
                 <div id="contenido">
                     <div id="bloque1">
                         <section class="bloque1Sesion1">
@@ -141,15 +157,15 @@
                 </div>
             </main>
             <footer>
-                <div class ="iconos">
-                    <i class=""></i>
-                    <i class=""></i>
-                    <i class=""></i>
-                    <i class=""></i>
+                <div class>
+                    <i class></i>
+                    <i class></i>
+                    <i class></i>
+                    <i class></i>
                 </div>
             </footer>
         </div>
-        <script src="/js/funciones.js"></script>
+        <script src="funciones.js"></script>
     </body>
 
 </html>

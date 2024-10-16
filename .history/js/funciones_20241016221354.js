@@ -6,6 +6,7 @@ $(document).ready(function() {
       if ($(this).is(":checked")) {
           $("#domicilio").hide(); 
           $("#recogida").show();  
+          $("#domicilioMostrado").hide();
           coche.style.display = "block";
           hotel.style.display = "none";
       } else {
@@ -16,4 +17,3 @@ $(document).ready(function() {
       }
   });
 });
-

@@ -6,14 +6,14 @@ $(document).ready(function() {
       if ($(this).is(":checked")) {
           $("#domicilio").hide(); 
           $("#recogida").show();  
+          $("#domicilioMostrado").hide();
           coche.style.display = "block";
           hotel.style.display = "none";
       } else {
           $("#domicilio").show(); 
           $("#recogida").hide();  
-          hotel.style.display = "block";
-          coche.style.display = "none";
+          $("#domicilioMostrado").show();
+          $("#recogidaMostrada").show();
       }
   });
 });
-

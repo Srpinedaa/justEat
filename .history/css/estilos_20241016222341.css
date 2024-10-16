@@ -16,14 +16,6 @@ html{
     
 }
 
-header{
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
 #navDireccion{
     /* border: 1px solid green; */
     display: flex;
@@ -84,16 +76,17 @@ header{
 #recogidaOculta{
     position: absolute;
     right: 10px;
-    top: 12px;
+    top: 18px;
     /* display: none; */
 }
 
 #domicilioOculto{
     position: absolute;
     left: 10px;
-    top: 12px;
+    top: 18px;
     /* display: none; */
 }
+
 
 .slider i{
     font-size: 16px;
@@ -103,12 +96,19 @@ header{
     color: #fff;
 }
 
-#domicilio, .hotel {
+#domicilioMostrado{
     display: block;
 }
 
+#domicilio {
+    display: block;
+}
 
-#recogida, .auto {
+#recogidaMostrada{
+    display: none;
+}
+
+#recogida {
     display: none;
 }
 
@@ -124,11 +124,6 @@ input:checked + .slider #recogida {
     display: block;
 }
 
-main{
-    margin-top: 60px; /* Espacio para el header */
-    margin-bottom: 40px; /* Espacio para el footer */
-}
-
 #navBuscador{
     padding: 5px;
     /* border: 1px solid blue; */
@@ -139,7 +134,8 @@ main{
 .buscadorInput{
     width: 93%;
     border-radius: 3rem;
-    padding: 1.1rem;
+    padding: 8px;
+    border: 1px solid #f5f3f1;
     background-color: #f5f3f1;
     font-size: 2rem;
     font-weight: bolder;
@@ -149,14 +145,6 @@ main{
 
 .buscador {
     display: flex;
-    width: 100%;
-}
-
-.buscador input{
-    border: none;
-    background-color: #f5f3f1;
-    width: 100%;
-
 }
 
 .fa-search{
@@ -353,8 +341,8 @@ main{
 }
 
 .fa-star{
-    color: #f6c243;
-    margin-right: 9px;
+   color: #f6c243;
+   margin-right: 9px;
 }
 
 .informacionPedido h5{
@@ -378,6 +366,4 @@ main{
     font-weight: bold;
 }
 
-footer{
-    background-color: white;
-}
+
